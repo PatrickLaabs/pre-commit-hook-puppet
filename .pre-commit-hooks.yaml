@@ -1,0 +1,12 @@
+- id: puppet-lint-legacyfacts_check
+  name: 'puppet-lint-legacyfacts_check'
+  entry: puppet-lint-legacyfacts_check.sh
+  # file:
+  language: 'script'
+  description: "Running Puppet Linter for Legacy Facts on Puppet Modules but ONLY checking the modules, not modifing them!"
+- id: puppet-lint-trailing_whitespaces_check
+  name: 'puppet-lint-trailing_whitespaces_check'
+  entry: puppet-lint-trailing_whitespaces_check.sh
+  # file
+  language: 'script'
+  description: "Running Puppet Linter for Trailing Whitespaces check"
