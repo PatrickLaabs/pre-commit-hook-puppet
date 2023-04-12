@@ -1,7 +1,7 @@
 #!/bin/sh
 
 PASS=true
-    puppet-lint --only-checks legacy_facts .
+    puppet-lint -f --only-checks legacy_facts .
     if [ "$?" -eq 1 ]; then
         PASS=false
     fi

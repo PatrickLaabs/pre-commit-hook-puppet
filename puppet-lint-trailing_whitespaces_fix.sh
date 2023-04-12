@@ -1,7 +1,7 @@
 #!/bin/sh
 
 PASS=true
-    puppet-lint --only-checks trailing_whitespace .
+    puppet-lint -f --only-checks trailing_whitespace .
     if [ "$?" -eq 1 ]; then
         PASS=false
     fi
